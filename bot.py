@@ -1,3 +1,4 @@
+#run in https://www.quantconnect.com/
 #region imports
 from AlgorithmImports import *
 #endregion
@@ -5,7 +6,7 @@ from System.Drawing import Color
 from collections import deque
 
 
-class Bollinger(QCAlgorithm):
+class StonksBot(QCAlgorithm):
 
     def Initialize(self):
         self.SetStartDate(2020, 3, 23)
