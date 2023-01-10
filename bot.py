@@ -18,7 +18,7 @@ class StonksBot(QCAlgorithm):
         self.bb = self.BB(self.pair, 14, 2)
        
         #self.vwap = self.VWAP("SPY", 20)
-        self.ema1 = self.EMA(self.pair,30,Resolution.Minute)
+        self.ema1 = self.EMA(self.pair,24,Resolution.Minute)
         
         self.ema2 = self.EMA(self.pair,100,Resolution.Minute)
         self.ema3 = self.EMA(self.pair,150,Resolution.Minute)
